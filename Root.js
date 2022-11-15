@@ -60,6 +60,14 @@ class Root {
             }
 
             this.dead = true;
+        } else if (roots[0] != this && this.age > 500) {
+
+            if (!this.dead) {
+
+                flowers.push(new Flower(this.x, this.y, this.originX, this.originY, this.id, this));
+            }
+
+            this.dead = true;
         }
 
         if (!this.dead) {
