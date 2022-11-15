@@ -1,7 +1,11 @@
 {
     "arts": [
         {
-            "label": "artisan.chat - Social network for creators, crafters, and \nartists",
+            "label": "Are.na - Platform for connecting ideas and building knowledge",
+            "link": "https://www.are.na/"
+        },
+        {
+            "label": "artisan.chat - Social network for creators, crafters, and artists",
             "link": "https://artisan.chat/public"
         },
         {

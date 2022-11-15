@@ -37,7 +37,7 @@ class Flower {
             this.button = createA(this.link, this.label, ["_self"]);
         }
         this.button.position(width/2 - this.x -5, height+100 - this.y -10);
-        this.button.style("background-color", "#ffffff");
+        this.button.style("background-color", "#FFF2F2");
 
         this.button.mouseClicked(this.clicked);
 
