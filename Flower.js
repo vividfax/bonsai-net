@@ -87,7 +87,6 @@ class Flower {
     displayLink() {
 
         this.button.show();
-
     }
 
     hideLink() {

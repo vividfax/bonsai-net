@@ -30,7 +30,7 @@ class Root {
 
         if (!this.dead) {
 
-            if (this.x > width/2 -100 || this.x < -width/2 +100) {
+            if (this.x > width/2 -width/17 || this.x < -width/2 +width/17) {
                 this.dirX *= -1;
             }
 

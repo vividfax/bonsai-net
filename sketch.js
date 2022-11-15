@@ -23,6 +23,10 @@ function setup() {
     createBackground();
 
     roots.push(new Root(0, 0, 0, 0, 0));
+
+    let resetButton = createButton("Reset");
+    resetButton.position(10, 10);
+    resetButton.mousePressed(reset);
 }
 
 function draw() {
@@ -55,6 +59,16 @@ function display() {
             flowers[i].hideLink();
         }
     }
+}
+
+function reset() {
+
+    roots = [];
+    flowers = [];
+
+    updatePixels();
+
+    roots.push(new Root(0, 0, 0, 0, 0));
 }
 
 function createBackground() {
