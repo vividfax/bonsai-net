@@ -52,15 +52,7 @@ class Root {
             this.dead = true;
         }
 
-        if (roots[0] != this && this.age > 200 && random() < 0.007) {
-
-            if (!this.dead) {
-
-                flowers.push(new Flower(this.x, this.y, this.originX, this.originY, this.id, this));
-            }
-
-            this.dead = true;
-        } else if (roots[0] != this && this.age > 500) {
+        if ((roots[0] != this && this.age > 200 && random() < 0.007) || (roots[0] != this && this.age > 500)) {
 
             if (!this.dead) {
 
