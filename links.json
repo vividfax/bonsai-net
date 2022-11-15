@@ -1,0 +1,118 @@
+{
+    "arts": [
+        {
+            "label": "artisan.chat - Social network for creators, crafters, and \nartists",
+            "link": "https://artisan.chat/public"
+        },
+        {
+            "label": "mastodon.art - Friendly creative social network",
+            "link": "https://mastodon.art/public"
+        },
+        {
+            "label": "Monoskop - Wiki for arts and studies",
+            "link": "https://monoskop.org/Monoskop"
+        },
+        {
+            "label": "Ravelry - Community site, organizational tool, and yarn & pattern database for knitters and crocheters",
+            "link": "https://www.ravelry.com/"
+        },
+        {
+            "label": "Stitchcord - Knitting discord",
+            "link": "https://discord.gg/PFXSAGM"
+        }
+    ],
+    "coding": [
+        {
+            "label": "botsin.space - Social network instance for bots and bot allies",
+            "link": "https://botsin.space/about"
+        },
+        {
+            "label": "Botwiki - Interesting and creative online bots",
+            "link": "https://botwiki.org/"
+        },
+        {
+            "label": "That Creative Code Page - Illustrated catalog of useful creative coding algorithms & techniques",
+            "link": "https://thatcreativecode.page/"
+        }
+    ],
+    "education": [
+        {
+            "label": "Explorable Explanations - Hub for learning through play",
+            "link": "https://explorabl.es/"
+        },
+        {
+            "label": "Sci-Hub - Pirate website that provides mass and public access to tens of millions of research papers",
+            "link": "https://theopensci.com/"
+        }
+    ],
+    "games": [
+        {
+            "label": "itch.io - Find and share indie games online for free",
+            "link": "https://itch.io/"
+        },
+        {
+            "label": "mastodon.gamedev.place - Gamedev social network",
+            "link": "https://mastodon.gamedev.place/public"
+        },
+        {
+            "label": "Meditations - Launcher that, every day, loads a small game and an accompanying text as a meditation, distraction, lesson, or inspiration",
+            "link": "http://www.meditations.games/"
+        },
+        {
+            "label": "The Useless Web - A portal to the weird of the internet",
+            "link": "https://theuselessweb.com/"
+        }
+    ],
+    "literature": [
+        {
+            "label": "Goodreads - Database of books, annotations, quotes, and reviews",
+            "link": "https://www.goodreads.com/"
+        },
+        {
+            "label": "Internet Archive - Non-profit library of millions of free books, movies, software, music, websites, and more",
+            "link": "https://archive.org/details/texts"
+        },
+        {
+            "label": "oulipo.social - Social network where you can't use the letter e",
+            "link": "https://oulipo.social/public"
+        }
+    ],
+    "tools": [
+        {
+            "label": "Glitch - Friendly community where everyone builds the web",
+            "link": "https://glitch.com/"
+        },
+        {
+            "label": "mmm.page - Dead simple, drag and drop websites",
+            "link": "https://mmm.page/"
+        },
+        {
+            "label": "Run Your Own Social - How to run a small social network site for your friends",
+            "link": "https://runyourown.social/"
+        },
+        {
+            "label": "tinytools.directory - Open source, experimental, and tiny tools roundup",
+            "link": "https://tinytools.directory/"
+        }
+    ],
+    "video": [
+        {
+            "label": "default filename tv - Youtube videos that were uploaded from the camera without edits to the filename",
+            "link": "https://default-filename-tv.neocities.org/"
+        },
+        {
+            "label": "Internet Archive - Non-profit library of millions of free books, movies, software, music, websites, and more",
+            "link": "https://archive.org/details/movies"
+        },
+        {
+            "label": "Thought Maybe - Library of films focused on topics challenging modern society",
+            "link": "https://thoughtmaybe.com/"
+        }
+    ],
+    "misc": [
+        {
+            "label": "Wayback Machine - Explore more than 760 billion web pages saved over time",
+            "link": "https://web.archive.org/"
+        }
+    ]
+}
