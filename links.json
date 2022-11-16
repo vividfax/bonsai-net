@@ -63,6 +63,10 @@
             "link": "http://www.meditations.games/"
         },
         {
+            "label": "Newgrounds - Animated films and games",
+            "link": "https://www.newgrounds.com/games"
+        },
+        {
             "label": "The Useless Web - A portal to the weird of the internet",
             "link": "https://theuselessweb.com/"
         }
@@ -107,6 +111,14 @@
         {
             "label": "Internet Archive - Non-profit library of millions of free books, movies, software, music, websites, and more",
             "link": "https://archive.org/details/movies"
+        },
+        {
+            "label": "Letterboxd - Social network for film lovers",
+            "link": "https://letterboxd.com/"
+        },
+        {
+            "label": "Newgrounds - Animated films and games",
+            "link": "https://www.newgrounds.com/movies"
         },
         {
             "label": "Thought Maybe - Library of films focused on topics challenging modern society",
