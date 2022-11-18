@@ -82,12 +82,12 @@ function reset() {
 
 function createBackground() {
 
-    background("#ff9d47");
+    background("#FFB370");
 
 	for (let y = 0; y < height; y++) {
 		for (let x = 0; x < width; x++) {
 			if (y / height < random()) {
-				set(x, y, color("#db6b80"));
+				set(x, y, color("#E38C9C"));
 			}
 		}
 	}
