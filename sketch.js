@@ -6,6 +6,11 @@ let flowerPng;
 
 let skipped = false;
 
+let canvas;
+let asciiCanvas;
+let myAscii;
+let asciiArray;
+
 function preload() {
 
     json = loadJSON("./links.json");
@@ -14,13 +19,16 @@ function preload() {
 
 function setup() {
 
-    createCanvas(windowWidth, windowHeight);
+    canvas = createCanvas(windowWidth, windowHeight);
+    asciiCanvas = createGraphics(windowWidth, windowHeight)
     colorMode(HSB);
     noStroke();
     angleMode(DEGREES);
     imageMode(CENTER);
 
     createBackground();
+
+    myAscii = new AsciiArt(this);
 
     roots.push(new Root(0, 0, 0, 0, 0));
 
@@ -32,6 +40,19 @@ function setup() {
 function draw() {
 
     display();
+
+    push();
+
+    textAlign(CENTER, CENTER);
+    textFont('Courier', 10/703*height);
+    textStyle(NORMAL);
+    noStroke();
+    fill("#F3AE98");
+
+    asciiArray = myAscii.convert(canvas, width/10, height/10);
+    myAscii.typeArray2d(asciiArray, canvas);
+
+    pop();
 }
 
 function display() {
