@@ -16,7 +16,7 @@ function preload() {
 
     json = loadJSON("./links.json");
     flowerPng = loadImage("./flower.png");
-    treePng = loadImage("./tree.png");
+    treePng = loadImage("./tree.jpg");
 }
 
 function setup() {
@@ -41,7 +41,6 @@ function setup() {
 function draw() {
 
     display();
-
 }
 
 function display() {
