@@ -3,6 +3,7 @@ let flowers = [];
 
 let json;
 let flowerPng;
+let treePng;
 
 let skipped = false;
 
@@ -15,6 +16,7 @@ function preload() {
 
     json = loadJSON("./links.json");
     flowerPng = loadImage("./flower.png");
+    treePng = loadImage("./tree.png");
 }
 
 function setup() {
@@ -26,9 +28,8 @@ function setup() {
     angleMode(DEGREES);
     imageMode(CENTER);
 
-    createBackground();
-
     myAscii = new AsciiArt(this);
+    createBackground();
 
     roots.push(new Root(0, 0, 0, 0, 0));
 
@@ -41,18 +42,6 @@ function draw() {
 
     display();
 
-    push();
-
-    textAlign(CENTER, CENTER);
-    textFont('Courier', 10/703*height);
-    textStyle(NORMAL);
-    noStroke();
-    fill("#F3AE98");
-
-    asciiArray = myAscii.convert(canvas, width/10, height/10);
-    myAscii.typeArray2d(asciiArray, canvas);
-
-    pop();
 }
 
 function display() {
@@ -94,17 +83,31 @@ function reset() {
 
 function createBackground() {
 
-    background("#FFBE85");
+    background("#ff9d47");
 
 	for (let y = 0; y < height; y++) {
 		for (let x = 0; x < width; x++) {
 			if (y / height < random()) {
-				set(x, y, color("#e79dab"));
+				set(x, y, color("#db6b80"));
 			}
 		}
 	}
 
     updatePixels();
+
+
+    push();
+
+    textAlign(CENTER, CENTER);
+    textFont('Courier', 10/703*height);
+    textStyle(NORMAL);
+    noStroke();
+    fill("#ffffff");
+
+    asciiArray = myAscii.convert(treePng, width/10, height/10);
+    myAscii.typeArray2d(asciiArray, canvas);
+
+    pop();
 }
 
 function mousePressed() {
