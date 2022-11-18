@@ -1,33 +1,55 @@
 {
-    "arts": [
+    "art": [
         {
             "label": "Are.na - Platform for connecting ideas and building knowledge",
             "link": "https://www.are.na/"
         },
         {
-            "label": "artisan.chat - Social network for creators, crafters, and artists",
-            "link": "https://artisan.chat/public"
+            "label": "Art Corner - Educational art discord with a focus on learning",
+            "link": "https://discord.gg/qD7twYM"
         },
         {
-            "label": "mastodon.art - Friendly creative social network",
+            "label": "ArtStation - Showcase platform for games, film, media & entertainment artists",
+            "link": "https://www.artstation.com/"
+        },
+        {
+            "label": "DeviantArt - Online art gallery and community",
+            "link": "https://www.deviantart.com/"
+        },
+        {
+            "label": "Europeana - Art, books, films and music from thousands of cultural institutions",
+            "link": "https://www.europeana.eu/en/collections"
+        },
+        {
+            "label": "Le Forum Dessiné - Community site where we create collective digital comics [FR]",
+            "link": "https://www.forum-dessine.fr/forum"
+        },
+        {
+            "label": "mastodon.art - Your friendly home for all things creative",
             "link": "https://mastodon.art/public"
         },
         {
             "label": "Monoskop - Wiki for arts and studies",
             "link": "https://monoskop.org/Monoskop"
+        }
+    ],
+    "crafts": [
+        {
+            "label": "artisan.chat - Home for creators, crafters, and artists",
+            "link": "https://artisan.chat/public"
         },
         {
             "label": "Ravelry - Community site, organizational tool, and yarn & pattern database for knitters and crocheters",
             "link": "https://www.ravelry.com/"
         },
         {
-            "label": "Stitchcord - Knitting discord",
+            "label": "Stitchcord - Knitting community on discord",
             "link": "https://discord.gg/PFXSAGM"
         }
     ],
     "coding": [
         {
-            "label": "botsin.space - Social network instance for bots and bot allies",
+            "label": "botsin.space - Community for bots and bot allies",
             "link": "https://botsin.space/public"
         },
         {
@@ -39,50 +61,106 @@
             "link": "https://thatcreativecode.page/"
         }
     ],
+    "design": [
+        {
+            "label": "Awwwards - Website design inspiration",
+            "link": "https://www.awwwards.com/websites/"
+        },
+        {
+            "label": "Dribbble - Discover the world’s top designers & creative professionals",
+            "link": "https://dribbble.com/"
+        }
+    ],
     "education": [
         {
             "label": "Explorable Explanations - Hub for learning through play",
             "link": "https://explorabl.es/"
         },
         {
-            "label": "Sci-Hub - Pirate website that provides mass and public access to tens of millions of research papers",
+            "label": "Sci-Hub - Public access to tens of millions of research papers",
             "link": "https://theopensci.com/"
+        }
+    ],
+    "fashion": [
+        {
+            "label": "Lookbook.nu - Fashion inspiration from real people around the world",
+            "link": "https://lookbook.nu/"
+        }
+    ],
+    "fun": [
+        {
+            "label": "A Website Is A Room - Live feed of websites",
+            "link": "https://a-website-is-a-room.net/"
+        },
+        {
+            "label": "cohost - Social media platform built from the ground up by a small team",
+            "link": "https://cohost.org/"
+        },
+        {
+            "label": "Just For Fun - Showcasing creative coding projects",
+            "link": "https://justforfun.io/"
+        },
+        {
+            "label": "p5.js Showcase - Creative work using p5.js",
+            "link": "https://showcase.p5js.org/#/2021-All"
+        },
+        {
+            "label": "The Useless Web - Portal to the weird of the internet",
+            "link": "https://theuselessweb.com/"
+        },
+        {
+            "label": "Wilderness Land - Tribute to web surfing",
+            "link": "https://wilderness.land/"
         }
     ],
     "games": [
         {
-            "label": "itch.io - Find and share indie games online for free",
+            "label": "itch.io - Find and share indie games",
             "link": "https://itch.io/"
         },
         {
-            "label": "mastodon.gamedev.place - Gamedev social network",
+            "label": "mastodon.gamedev.place - Community focused on game development",
             "link": "https://mastodon.gamedev.place/public"
         },
         {
-            "label": "Meditations - Launcher that, every day, loads a small game and an accompanying text as a meditation, distraction, lesson, or inspiration",
+            "label": "Meditations - Launcher that, every day, loads a small game",
             "link": "http://www.meditations.games/"
         },
         {
             "label": "Newgrounds - Animated films and games",
             "link": "https://www.newgrounds.com/games"
-        },
-        {
-            "label": "The Useless Web - A portal to the weird of the internet",
-            "link": "https://theuselessweb.com/"
         }
     ],
     "literature": [
+        {
+            "label": "BookWyrm - Social reading and reviewing",
+            "link": "https://bookwyrm.social/"
+        },
         {
             "label": "Goodreads - Database of books, annotations, quotes, and reviews",
             "link": "https://www.goodreads.com/"
         },
         {
-            "label": "Internet Archive - Non-profit library of millions of free books, movies, software, music, websites, and more",
-            "link": "https://archive.org/details/texts"
+            "label": "LibriVox - Free public domain audiobooks",
+            "link": "https://librivox.org/"
+        },
+        {
+            "label": "Open Library - Read, borrow, and discover more than 3M books for free",
+            "link": "https://openlibrary.org/"
         },
         {
             "label": "oulipo.social - Social network where you can't use the letter e",
             "link": "https://oulipo.social/public"
+        }
+    ],
+    "music": [
+        {
+            "label": "Bandcamp - Online record store and music community",
+            "link": "https://bandcamp.com/"
+        },
+        {
+            "label": "Soundcloud - Discover the top streamed music and songs",
+            "link": "https://soundcloud.com/discover"
         }
     ],
     "tools": [
@@ -91,8 +169,12 @@
             "link": "https://glitch.com/"
         },
         {
-            "label": "mmm.page - Dead simple, drag and drop websites",
+            "label": "mmm.page - Dead simple, drag & drop websites",
             "link": "https://mmm.page/"
+        },
+        {
+            "label": "Neocities - Create your own free website",
+            "link": "https://neocities.org/"
         },
         {
             "label": "Run Your Own Social - How to run a small social network site for your friends",
@@ -101,6 +183,10 @@
         {
             "label": "tinytools.directory - Open source, experimental, and tiny tools roundup",
             "link": "https://tinytools.directory/"
+        },
+        {
+            "label": "Wayback Machine - Explore more than 760 billion web pages saved over time",
+            "link": "https://web.archive.org/"
         }
     ],
     "video": [
@@ -109,11 +195,7 @@
             "link": "https://default-filename-tv.neocities.org/"
         },
         {
-            "label": "Internet Archive - Non-profit library of millions of free books, movies, software, music, websites, and more",
-            "link": "https://archive.org/details/movies"
-        },
-        {
-            "label": "Letterboxd - Social network for film lovers",
+            "label": "Letterboxd - Social film discovery",
             "link": "https://letterboxd.com/"
         },
         {
@@ -123,12 +205,10 @@
         {
             "label": "Thought Maybe - Library of films focused on topics challenging modern society",
             "link": "https://thoughtmaybe.com/"
-        }
-    ],
-    "misc": [
+        },
         {
-            "label": "Wayback Machine - Explore more than 760 billion web pages saved over time",
-            "link": "https://web.archive.org/"
+            "label": "Vimeo - Watch free videos",
+            "link": "https://vimeo.com/watch"
         }
     ]
 }
