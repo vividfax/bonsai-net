@@ -29,6 +29,8 @@ function setup() {
     imageMode(CENTER);
 
     myAscii = new AsciiArt(this);
+    asciiArray = myAscii.convert(treePng, width/10, height/10);
+
     createBackground();
 
     roots.push(new Root(0, 0, 0, 0, 0));
@@ -76,6 +78,7 @@ function reset() {
     flowers = [];
 
     updatePixels();
+    displayAscii();
 
     roots.push(new Root(0, 0, 0, 0, 0));
 }
@@ -93,20 +96,7 @@ function createBackground() {
 	}
 
     updatePixels();
-
-
-    push();
-
-    textAlign(CENTER, CENTER);
-    textFont('Courier', 10/703*height);
-    textStyle(NORMAL);
-    noStroke();
-    fill("#ffffff");
-
-    asciiArray = myAscii.convert(treePng, width/10, height/10);
-    myAscii.typeArray2d(asciiArray, canvas);
-
-    pop();
+    displayAscii();
 }
 
 function mousePressed() {
@@ -118,4 +108,19 @@ function mousePressed() {
             display();
         }
     }
+}
+
+function displayAscii() {
+
+    push();
+
+    textAlign(CENTER, CENTER);
+    textFont('Courier', 10/703*height);
+    textStyle(NORMAL);
+    noStroke();
+    fill("#ffffff");
+
+    myAscii.typeArray2d(asciiArray, canvas);
+
+    pop();
 }
