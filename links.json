@@ -22,6 +22,7 @@
                         }
                     ]
                 },
+
                 {
                     "tools": [
                         {
@@ -267,6 +268,30 @@
                         {
                             "label": "Newgrounds - Animated films and games",
                             "link": "https://www.newgrounds.com/games"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "shop": [
+                {
+                    "buy": [
+                        {
+                            "label": "Folksy - Buy and sell handmade gifts and craft supplies",
+                            "link": "https://folksy.com/"
+                        }
+                    ]
+                },
+                {
+                    "review": [
+                        {
+                            "label": "Looria - Explore and compare the most popular products",
+                            "link": "https://www.looria.com/"
+                        },
+                        {
+                            "label": "Metacritic - Aggregates music, game, tv, and movie reviews from the leading critics",
+                            "link": "https://www.metacritic.com/"
                         }
                     ]
                 }
