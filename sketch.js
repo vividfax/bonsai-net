@@ -101,16 +101,16 @@ function createBackground() {
     displayAscii();
 }
 
-function mousePressed() {
+// function mousePressed() {
 
-    if (!skipped) {
-        skipped = true;
+//     if (!skipped) {
+//         skipped = true;
 
-        while (flowers.length < Object.keys(json).length) {
-            display();
-        }
-    }
-}
+//         while (flowers.length < Object.keys(json).length) {
+//             display();
+//         }
+//     }
+// }
 
 function displayAscii() {
 
