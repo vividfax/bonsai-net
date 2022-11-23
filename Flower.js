@@ -93,7 +93,7 @@ class Flower {
         let label = this.elt.innerHTML;
         let flower = this.flower; //
 
-        if (!flower.branch) {
+        if (!flower.branch || flower.interacted) {
             return;
         }
 
