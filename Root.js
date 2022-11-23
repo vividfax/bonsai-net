@@ -1,6 +1,6 @@
 class Root {
 
-    constructor(x, y, originX, originY, id) {
+    constructor(x, y, originX, originY, data) {
 
         this.originX = originX;
         this.originY = originY;
@@ -11,7 +11,7 @@ class Root {
         this.dirX = random(-1, 1);
         this.dirY = random(0, 1);
 
-        this.id = id;
+        this.data = data;
 
         this.age = 0;
         this.dead = false;
@@ -24,7 +24,7 @@ class Root {
 
         if (this.y > height) {
 
-            flowers.push(new Flower(this.x, this.y, this.originX, this.originY, this.id, this));
+            flowers.push(new Flower(this.x, this.y, this.originX, this.originY, this.data, this));
             this.dead = true;
         }
 
@@ -45,18 +45,19 @@ class Root {
 
         if (roots[0] == this && this.y > 200) {
 
-            while (roots.length < Object.keys(json).length+1) {
-                roots.push(new Root(this.x, this.y, this.originX, this.originY, roots.length));
+            for (let i = 0; i < this.data.length; i++) {
+                roots.push(new Root(this.x, this.y, this.originX, this.originY, this.data[i]));
+
             }
 
             this.dead = true;
         }
 
-        if ((roots[0] != this && this.age > 200 && random() < 0.007) || (roots[0] != this && this.age > 500)) {
+        if ((roots[0] != this && this.age > 200 && random() < 0.007) || (roots[0] != this && this.age > 300)) {
 
             if (!this.dead) {
 
-                flowers.push(new Flower(this.x, this.y, this.originX, this.originY, this.id, this));
+                flowers.push(new Flower(this.x, this.y, this.originX, this.originY, this.data, this));
             }
 
             this.dead = true;

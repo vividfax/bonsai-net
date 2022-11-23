@@ -28,12 +28,14 @@ function setup() {
     angleMode(DEGREES);
     imageMode(CENTER);
 
+    // json = json.categories;
+
     myAscii = new AsciiArt(this);
     asciiArray = myAscii.convert(treePng, width/10, height/10);
 
     createBackground();
 
-    roots.push(new Root(0, 0, 0, 0, 0));
+    roots.push(new Root(0, 0, 0, 0, json.categories));
 
     let resetButton = createButton("Reset");
     resetButton.position(10, 10);
@@ -80,7 +82,7 @@ function reset() {
     updatePixels();
     displayAscii();
 
-    roots.push(new Root(0, 0, 0, 0, 0));
+    roots.push(new Root(0, 0, 0, 0, json.categories));
 }
 
 function createBackground() {
