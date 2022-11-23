@@ -13,6 +13,10 @@
                             "link": "https://botwiki.org/"
                         },
                         {
+                            "label": "Run Your Own Social - How to run a small social network site for your friends",
+                            "link": "https://runyourown.social/"
+                        },
+                        {
                             "label": "That Creative Code Page - Illustrated catalog of useful creative coding algorithms & techniques",
                             "link": "https://thatcreativecode.page/"
                         }
@@ -31,10 +35,6 @@
                         {
                             "label": "Neocities - Create your own free website",
                             "link": "https://neocities.org/"
-                        },
-                        {
-                            "label": "Run Your Own Social - How to run a small social network site for your friends",
-                            "link": "https://runyourown.social/"
                         },
                         {
                             "label": "tinytools.directory - Open source, experimental, and tiny tools roundup",
